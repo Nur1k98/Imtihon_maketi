@@ -11,8 +11,12 @@ html {
 
 body {
   display: flex;
+  background-image: url("../images/body-bgi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   flex-direction: column;
   height: 100%;
+  font-family: 'Futura';
   margin: 0;
   padding: 0;
 }

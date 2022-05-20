@@ -1,0 +1,85 @@
+.sign-up {
+  position: relative;
+  margin-top: 235px;
+  background-image: url("../images/sign-up-bgi.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.sign-up__inner {
+  padding-top: 90px;
+  padding-bottom: 88px;
+  padding-left: 178px;
+
+  
+  &::after {
+    position: absolute;
+    top: -95px;
+    right: calc(50% - 615px);
+    width: 613px;
+    height: 481px;
+    z-index: 1;
+    background-image:url("../images/sing-up-bgi-2.svg");
+    background-repeat: no-repeat;
+    background-size: 655px 630px;
+    content: "";
+  }
+
+
+}
+
+.sign-up__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.sign-up__form {
+  @include flex-starter;
+}
+.sign-up__input {
+  width: 335px;
+  padding-top: 18px;
+  padding-bottom: 12px;
+  padding-left: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+
+
+  
+}
+
+.sign-up__btn {
+  width: 188px;
+  margin-left: 21px;
+  padding: 15px 53px 14px 51px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #333333;
+  border-radius: 3px;
+  border: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,95 @@
+.feedback {
+  margin-top: 265px;
+  background-color: #333333;
+  background-image: url("../images/bgi-end-section.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right;
+}
+.feedback__inner {
+  width: 1463px;
+  display: flex;
+}
+
+.feedback__right-wrapp {
+  margin-left: 165px;
+  padding-top: 62px;
+  padding-bottom: 74px;
+}
+.feedback__title {
+  margin: 0;
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+} 
+
+.feedback__text {
+  margin: 0;
+  margin-bottom: 29px;
+  width: 334px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.form {
+  width: 375px;
+}
+
+.form__input-name {
+  display: block;
+  margin-bottom: 14px;
+  padding: 16px 290px 13px 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+  background-color: #FFFFFF;
+}
+
+.form__input-email {
+  display: block;
+  margin-bottom: 14px;
+  padding: 16px 290px 13px 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+  background-color: #FFFFFF;
+}
+.form__imput-submit {
+  display: block;
+  margin-bottom: 30px;
+  padding: 16px 290px 127px 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+  background-color: #FFFFFF;
+}
+.form__btn {
+  padding: 15px 49px 14px 50px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #FFBD54;
+  border:none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}

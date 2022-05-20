@@ -1,0 +1,77 @@
+
+.blockquote__inner {
+  padding-top: 44px;
+  padding-bottom: 191px;
+
+  &::before {
+    position: absolute;
+    top: 925px;
+    left: calc(50% - 485px);
+    width: 70px;
+    height: 60px;
+    background-image: url("../images/sec-2-before.svg");
+    background-repeat: no-repeat;
+    background-size: 70px 60px;
+    content:""
+
+  }
+
+  &::after {
+    position: absolute;
+    top: 1000px;
+    left: calc(50% + 400px);
+    width: 70px;
+    height: 60px;
+    background-image: url("../images/sec-2-aftore.svg");
+    background-repeat: no-repeat;
+    background-size: 70px 60px;
+    content:""
+  }
+}
+
+
+.blockquote__text {
+  width: 753px;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+
+  &::before {
+    position: absolute;
+    top: 922px;
+    left: calc(50% - 50px);
+    width: 140px;
+    height: 1px;
+    background-color: #DBDBDB;
+    background-repeat: no-repeat;
+    content:""
+  }
+
+  &::after {
+    position: absolute;
+    top: 1075px;
+    left: calc(50% - 50px);
+    width: 140px;
+    height: 1px;
+    background-color: #DBDBDB;
+    background-repeat: no-repeat;
+    content:""
+  }
+}
+
+.blockquote__clinic-name {
+  width: 357px;
+  margin: 0;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}
